@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Hello World!"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/shape" />
+
+    <com.permission.viewround.CustomButton
+        android:id="@+id/btn_test"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        app:radius="40dp"
+        app:normal_color="@color/purple_700"
+        android:textColor="@color/white"
+        android:text="测试" />
+
+    <TextView
+        android:id="@+id/test_textView"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Hello World!"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/roundImage"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Hello World!"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@color/black" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hello World!"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
